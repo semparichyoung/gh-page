@@ -1,2 +1,0 @@
-(this["webpackJsonpgh-page"]=this["webpackJsonpgh-page"]||[]).push([[0],{10:function(e,n,t){"use strict";t.r(n);var c=t(1),i=t.n(c),r=t(3),s=t.n(r),a=(t(8),t(0));function h(){return Object(a.jsx)("div",{id:"navDiv",children:" This is Nav Bar "})}function o(){return[Object(a.jsx)("h1",{className:"mainTitle",children:" Shelob Yang "}),Object(a.jsx)(h,{})]}var j=document.getElementById("root");s.a.render(Object(a.jsx)(i.a.StrictMode,{children:Object(a.jsx)(o,{})}),j)},8:function(e,n,t){}},[[10,1,2]]]);
-//# sourceMappingURL=main.7ce93107.chunk.js.map
