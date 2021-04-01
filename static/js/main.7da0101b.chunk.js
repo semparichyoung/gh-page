@@ -1,2 +1,0 @@
-(this["webpackJsonpgh-page"]=this["webpackJsonpgh-page"]||[]).push([[0],{9:function(e,t,n){"use strict";n.r(t);var c=n(0),a=n.n(c),r=n(3),s=n.n(r),i=n(1);function h(){return Object(i.jsx)("h1",{className:"mainTitle",children:" Shelob Yang "})}var o=document.getElementById("root");s.a.render(Object(i.jsx)(a.a.StrictMode,{children:Object(i.jsx)(h,{})}),o)}},[[9,1,2]]]);
-//# sourceMappingURL=main.7da0101b.chunk.js.map
