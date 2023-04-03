@@ -1,0 +1,88 @@
+{
+  "profile": {
+    "text": "Profile",
+    "name": "Sen-Pan Yang",
+    "email": "shelob5020@gmail.com",
+    "github": "https://github.com/semparichyoung",
+    "linkedin": "https://www.linkedin.com/in/senpanyang-8852b688/",
+    "profile": "As a skilled software engineer, I have a proven track record in debugging, code reading, and website design. Throughout my career, I have demonstrated a strong ability to solve complex technical problems, improve code performance, and implement innovative solutions. I am highly motivated to continue developing my IT skills and leveraging my technical expertise to benefit other people and organizations."
+  },
+  "education": {
+    "text": "Education",
+    "data": [{
+      "institution": "Tunghai University",
+      "degree": "Computer Science",
+      "start_date": "Sep 2007",
+      "end_date": "Jul 2011"
+    }]
+  },
+  "work_experience": {
+    "text": "Work Experience",
+    "data" :[
+      {
+        "title": "Senior Analyst Programmer",
+        "company": "theOrigo Ltd.",
+        "start_date": "Mar 2022",
+        "end_date": "Nov 2022",
+        "responsibilities": [
+          "Develop websites and core modules with Laravel and Codeigniter"
+        ]
+      },
+      {
+        "title": "Web Manager Assistant",
+        "company": "MVI Systems Ltd. (Taiwan) Rep Office",
+        "start_date": "Jul 2017",
+        "end_date": "Mar 2022",
+        "responsibilities": [
+          "Develop, upgrade and maintain core PHP, javascript, CSS customize framework",
+          "Advanced efficiency of the daily task",
+          "Reduced development time by more than 50%",
+          "Allocate tasks to engineers",
+          "Modularize, and make a guide with a new system made by CTO"
+        ]
+      },
+      {
+        "title": "Web Programmer",
+        "company": "MVI Systems Ltd. (Taiwan) Rep Office",
+        "start_date": "Aug 2016",
+        "end_date": "Jul 2017",
+        "responsibilities": [
+          "Changed database from Mysql to MongoDB, and developed needed modules",
+          "Developed hotel’s set-top box web program by PHP, and javascript"
+        ]
+      },
+      {
+        "title": "Software engineer",
+        "company": "Flysun",
+        "start_date": "Aug 2015",
+        "end_date": "Aug 2016",
+        "responsibilities": [
+          "Developed front-end web site",
+          "Used SCSS, jQuery, Bootstrap, React.js",
+          "Collaborated with a back-end engineer for API call and MongoDB structure"
+        ]
+      },
+      {
+        "title": "Full-stack engineer",
+        "company": "BlockboardCloud",
+        "start_date": "Sep 2012",
+        "end_date": "Aug 2015",
+        "responsibilities": [
+          "Developed full-stack web page, based on LAMP",
+          "Used Drupal, javascript, html, php, MySQL, and flash",
+          "Developed tools for colleagues"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "text": "Skills",
+    "data": [
+      "Efficient at making operations simple",
+      "Skilled at formulating development priority",
+      "Efficient at building a website with PHP, javascript",
+      "Well known at MongoDB, Mysql",
+      "Skilled at CentOS server setup"
+    ]
+  }
+}

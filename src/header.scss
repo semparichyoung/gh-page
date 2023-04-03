@@ -1,0 +1,22 @@
+#headerDiv {
+  height: 50px;
+  display: flex;
+}
+#headerIcon {
+  height: 100%;
+  border-radius: 100%;
+}
+
+#headerDiv > h1 {
+  flex: 1;
+}
+#switchLang {
+  cursor: pointer;
+}
+
+#main[lang='ENG'] #ENG {
+  color: #a50;
+}
+#main[lang='CHT'] #CHT {
+  color: #a50;
+}
