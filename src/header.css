@@ -1,0 +1,1 @@
+#headerDiv{height:50px;display:flex;align-items:center}#headerIcon{height:100%;border-radius:100%}#headerDiv>h1{flex:1;margin:0}#switchLang{cursor:pointer;text-align:center}#main[lang=ENG] #ENG{color:#a50}#main[lang=CHT] #CHT{color:#a50}

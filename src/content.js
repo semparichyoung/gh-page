@@ -20,7 +20,7 @@ export default class Content extends React.Component {
       return <div
           id={key + 'Div'}
           key={key + 'Div'}
-          className={"contentDiv " + key + "Div content"}
+          className={"contentDiv " + key + "Div contents"}
         >
           <h2>{item.text}</h2>
           {/* Render the dynamic template component if it is loaded */}

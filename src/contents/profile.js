@@ -13,12 +13,11 @@ export default class Profile extends React.Component {
             let item = $t.props.values[key];
             let name = key.charAt(0).toUpperCase() + key.slice(1);
             if(item.indexOf('https://') === 0) {
-                return <div className={"profile" + name}>{name}: <Link v={item} /></div>
+                return <div className={"profile" + name}><h3>{name}</h3> <Link v={item} /></div>
             }else {
-                return <div className={"profile" + name}>{name}: {item}</div>
+                return <div className={"profile" + name}><h3>{name}</h3> {item}</div>
             }
         });
-        console.log(content);
         return <div id="profileContent">{content}</div>
 
     }

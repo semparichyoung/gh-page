@@ -22,20 +22,26 @@ body {
 span[lang] {
   display: none;
 }
-#main[lang='ENG'] span[lang='ENG'] {
-  display: inline-block;
-}
-#main[lang='CHT'] span[lang='CHT'] {
-  display: inline-block;
-}
-#main {
+#app {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
   background: #333;
   height: 90vh;
-  display: block;
   width: 90vw;
   margin: 3vh 3vw;
   padding: 2vh 2vw;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
 }
 #navigateDiv {
   float: left;
@@ -44,18 +50,20 @@ span[lang] {
   margin-right: 50px;
   margin-top: 20px;
 }
-
-.content {
+#content {
+  flex: 1;
+}
+.contents {
   margin-left: 20px;
   float: left;
   width: 80%;
   display: none;
 }
-.content.show {
+.contents.show {
   display: block;
 }
 
-.headerButton {
+.menuButton {
   cursor: pointer;
   border-bottom: 1px solid #099;
   transition: all 0.2s;
@@ -78,9 +86,9 @@ span[lang] {
 }
 
 
-a:link {
-  color: #AAAAEE;
+a:link, a:visited {
+  color: #099;
 }
-a:visited {
-  color: #995BEC;
+a:hover {
+  color: #d00;
 }
