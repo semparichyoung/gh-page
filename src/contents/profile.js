@@ -10,15 +10,15 @@ export default class Profile extends React.Component {
         const $t = this;
         let content = {};
         content = Object.keys(this.props.values).map(key => {
-            if(key == 'text') return;
+            if(key === 'text') return;
             let item = $t.props.values[key];
             let name = key.charAt(0).toUpperCase() + key.slice(1);
-            if(name == "Email") {
-                return <div className={"profile" + name}><h3>{name}</h3> <Email v={item} /></div>
+            if(name === "Email") {
+                return <div className={"profile" + name}><h3>{name}</h3> <span class='indent'><Email v={item} /></span></div>
             }else if(item.indexOf('https://') === 0) {
-                return <div className={"profile" + name}><h3>{name}</h3> <Link v={item} /></div>
+                return <div className={"profile" + name}><h3>{name}</h3> <span class='indent'><Link v={item} /></span></div>
             }else {
-                return <div className={"profile" + name}><h3>{name}</h3> {item}</div>
+                return <div className={"profile" + name}><h3>{name}</h3> <span class='indent'>{item}</span></div>
             }
         });
         return <div id="profileContent">{content}</div>

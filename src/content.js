@@ -1,8 +1,10 @@
 import React from 'react';
 import Profile from './contents/profile';
+import Education from './contents/education';
 
 const componentMap = {
   profile: Profile,
+  education: Education
   // add more components here with their corresponding keys
 };
 
